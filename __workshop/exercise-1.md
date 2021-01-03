@@ -16,4 +16,25 @@ Write out each endpoint, its method, and brief description of waht it should do.
 
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
+
+
+
+
 ## Your Answer
+4 at least: the stock, the customers, the seating in the cafe.
+
+| endpoint | method | Description            |
+| -------- | ------ | ---------------------- |
+| `/client:id`  | `GET`  | to access the company list (customer) |
+
+| endpoint | method | Description            |
+| -------- | ------ | ---------------------- |
+| `/clients/signin`  | `POST`  | create sign in with all the request. Or add a new user customer |
+
+| endpoint | method | Description            |
+| -------- | ------ | ---------------------- |
+| `/products/id`  | `PUT`  | update items |
+
+| endpoint | method | Description            |
+| -------- | ------ | ---------------------- |
+| `/products/id`  | `DELETE`  | remove promotion deal |
